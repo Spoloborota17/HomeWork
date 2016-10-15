@@ -18,13 +18,13 @@ public class MainSorted {
 		
 		System.out.println("***************Сортировка №1 (пузырьком)****************");
 		long begin = System.currentTimeMillis();
-		new SortedOne(array);
+		new BubbleSort(array);
 		long end = System.currentTimeMillis();
 		System.out.println("Время выполнения: " + (end - begin));
 		
 		System.out.println("***************Сортировка №2 (расчёской)****************");
 		long begin2 = System.currentTimeMillis();
-		new SortedTwo(array);
+		new CombSort(array);
 		long end2 = System.currentTimeMillis();
 		System.out.println("Время выполнения: " + (end2 - begin2));
 	}
