@@ -18,7 +18,7 @@ public class MainSorted {
 		
 		System.out.println("***************Сортировка №1 (пузырьком)****************");
 		long begin = System.currentTimeMillis();
-		new SortedOne(array);
+		new BubbleSort(array);
 		long end = System.currentTimeMillis();
 		System.out.println("Время выполнения: " + (end - begin));
 		
