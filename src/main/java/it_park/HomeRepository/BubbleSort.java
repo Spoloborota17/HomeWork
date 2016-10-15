@@ -14,7 +14,6 @@ public class BubbleSort {
 //			System.out.println(x);
 //		}
 	}
-	
 	// Реализация сортировки методом пузырька
 	private int[] toSort(){
 		for(int i = sortedArray.length - 1; i > 1; i--){
