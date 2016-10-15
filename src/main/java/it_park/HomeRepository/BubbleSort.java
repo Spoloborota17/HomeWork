@@ -14,6 +14,10 @@ public class BubbleSort {
 //			System.out.println(x);
 //		}
 	}
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 93c2558... По идее эти изменения должны произойти во второй ветке
 	// Реализация сортировки методом пузырька
 	private int[] toSort(){
 		for(int i = sortedArray.length - 1; i > 1; i--){
