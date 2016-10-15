@@ -1,8 +1,5 @@
 package it_park.HomeRepository;
 
-import it_park.spoloborota.Array.SortedOne;
-import it_park.spoloborota.Array.SortedTwo;
-
 import java.util.Random;
 
 public class MainSorted {
