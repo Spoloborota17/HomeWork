@@ -9,6 +9,7 @@ public class ArrayListMain {
 public static void main(String[] args) {
 	
 	// Этот класс сделан чтобы произвести черри-пик в смартгиде.
+	// Раз-раз, приём?
 		
 		Random random = new Random();
 		
